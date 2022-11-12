@@ -1,8 +1,10 @@
 # FOR RUN APPLICATION PUT:
-    вставить в VM options, чтобы запускать из idea ![img.png](img.png) 
+    запуск из idea
+    1 Edit configuration
+    2 VM options -Dspring.profiles.active=local-chrome
 
     run chrome driver
-    mvn clean verify -Dspring.profiles.active=local-chrome (запуск из консоли)
+    mvn clean verify -Dspring.profiles.active=local-chrome 
     
     run firefox driver
     mvn clean verify -Dspring.profiles.active=local-firefox
